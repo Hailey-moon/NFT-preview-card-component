@@ -24,7 +24,7 @@ body {
 .NFT .eth {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
-    float: left;
+    text-align: left;
 }
 
 .NFT .time {
