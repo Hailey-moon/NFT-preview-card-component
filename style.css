@@ -8,6 +8,7 @@ body {
     background-color: hsl(216, 50%, 16%);
     width: 350px;
     padding: 30px;
+    margin: auto;
 }
 
 .NFT h1 {
@@ -31,7 +32,9 @@ body {
 }
 
 .NFT hr {
-    color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    height: 2px;
+    border: none;
 }
 
 .NFT .name {
