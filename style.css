@@ -9,6 +9,12 @@ body {
     width: 350px;
     padding: 30px;
     margin: auto;
+    border-radius: 13px;
+}
+
+.NFT img #equilibrium {
+    width: 350px;
+    border-radius: 13px;
 }
 
 .NFT h1 {
@@ -19,6 +25,9 @@ body {
 .NFT p {
     color: hsl(215, 51%, 70%);
     font-size: 18px;
+}
+
+.NFT img #ethereum {
 }
 
 .NFT .eth {
