@@ -6,20 +6,26 @@ body {
 
 .NFT {
     background-color: hsl(216, 50%, 16%);
-    width: 350px;
+    width: 280px;
     padding: 30px;
     margin: auto;
     border-radius: 13px;
+    box-shadow: 0px 10px 30px 10px hsl(215, 55%, 8%);
+    position: relative;
+    transform: translateY(10%);
 }
 
-.NFT img #equilibrium {
-    width: 350px;
+#equilibrium {
+    width: 280px;
     border-radius: 13px;
+    vertical-align: middle;
 }
 
 .NFT h1 {
     color: hsl(0, 0%, 100%);
+    padding-top: 10px;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .NFT p {
@@ -27,13 +33,22 @@ body {
     font-size: 18px;
 }
 
-.NFT img #ethereum {
+#ethereum {
+    vertical-align: middle;
+    width: 12px;
+    padding: 0px 5px 5px 0px;
 }
 
 .NFT .eth {
     color: hsl(178, 100%, 50%);
-    font-weight: 400;
+    font-weight: 600;
     text-align: left;
+}
+
+#clock {
+    vertical-align: middle;
+    width: 20px;
+    padding: 0px 8px 5px 0px;
 }
 
 .NFT .time {
@@ -45,6 +60,18 @@ body {
     background-color: hsl(215, 32%, 27%);
     height: 2px;
     border: none;
+}
+
+#avatar {
+    width: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.NFT .credit {
+    padding-left: 15px;
+    vertical-align: middle;
 }
 
 .NFT .name {
