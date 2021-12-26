@@ -23,11 +23,11 @@ body {
 .NFT .eth {
     color: hsl(178, 100%, 50%);
     font-weight: 600;
-    text-align: left;
+    float: left;
 }
 
 .NFT .time {
-    text-align: right;
+    float: right;
 }
 
 .NFT hr {
